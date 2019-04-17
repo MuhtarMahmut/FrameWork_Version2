@@ -1,6 +1,5 @@
 package Utilities;
 
-
 import Pages.FaceBookElement;
 import Pages.GoogleElement;
 import org.openqa.selenium.WebDriver;
