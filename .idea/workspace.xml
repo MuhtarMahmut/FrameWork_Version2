@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acb43315-ca94-401a-9deb-5221f4bca08b" name="Default Changelist" comment="" />
+    <list default="true" id="acb43315-ca94-401a-9deb-5221f4bca08b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/GoogleSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="171">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="-150">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,16 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/FaceBookElement.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="321">
+              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -50,11 +89,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="276">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -68,13 +116,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Mylibraray.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/FaceBookElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Datas.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
       </list>
     </option>
@@ -92,6 +148,7 @@
     <option name="width" value="2524" />
     <option name="height" value="1533" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -123,6 +180,30 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameWork_Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameWork_Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameWork_Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +212,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555518644929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555524681053" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -150,7 +231,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.GoogleSearch">
+    <configuration name="GoogleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FrameWork_Version2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.GoogleSearch" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleSearch.SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork_Version2" />
       <extension name="coverage">
@@ -171,6 +268,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GoogleSearch" />
         <item itemvalue="TestNG.GoogleSearch.SearchTest" />
       </list>
     </recent_temporary>
@@ -189,17 +287,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 12h 22m 36s.xml">
-      <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 12h 23m 06s.xml">
-      <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 12h 25m 38s.xml">
       <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 12h 29m 35s.xml">
       <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 13h 15m 05s.xml">
+      <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 13h 16m 07s.xml">
+      <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch_SearchTest - 2019.04.17 at 13h 17m 14s.xml">
+      <configuration name="GoogleSearch.SearchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch - 2019.04.17 at 13h 17m 59s.xml">
+      <configuration name="GoogleSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch - 2019.04.17 at 13h 20m 06s.xml">
+      <configuration name="GoogleSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch - 2019.04.17 at 13h 31m 14s.xml">
+      <configuration name="GoogleSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch - 2019.04.17 at 13h 37m 18s.xml">
+      <configuration name="GoogleSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GoogleSearch - 2019.04.17 at 13h 44m 31s.xml">
+      <configuration name="GoogleSearch" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -213,13 +329,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329235" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.329235" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13934426" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29918033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,60 +354,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Mylibraray.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/FaceBookElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -300,6 +362,90 @@
             <element signature="imports" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Datas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

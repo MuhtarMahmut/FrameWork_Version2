@@ -2,18 +2,18 @@ package Utilities;
 
 public class Encapsulate {
 
-    final static  private String FaceBookWebsite="https://www.facebook.com";
+    final static  private String Website="https://www.facebook.com";
+    final static private String Browser="Chrome";
 
-    final static private String GoogleWebsite="https://www.google.com";
 
-
+    public static String getBrowser(){
+        return Browser;
+    }
     public static String getWebsiteFB(){
-        return FaceBookWebsite;
+        return Website;
     }
 
-    public static String getWebsiteGG(){
-        return GoogleWebsite;
-    }
+
 
 
 }

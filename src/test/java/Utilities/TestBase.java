@@ -3,15 +3,13 @@ package Utilities;
 
 import Pages.FaceBookElement;
 import Pages.GoogleElement;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase {
+public abstract class TestBase {
+
     public static WebDriver driver;
     public static GoogleElement google;
     public static FaceBookElement FaceBook;
@@ -19,11 +17,10 @@ public class TestBase {
     @BeforeMethod()   // controls how the @Test method will be executed.
     public void setup01(){
         // this before method is to setup browsers.
-        WebDriverManager.chromedriver().setup();
-        driver=new ChromeDriver();
+        driver = Mylibraray.getDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.navigate().to(Mylibraray.getPropertiesData("GGWebSite"));
+        driver.navigate().to(Mylibraray.getPropertiesData("WebSite"));
 
     }
 
