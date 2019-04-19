@@ -1,15 +1,23 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import java.io.File;
 import java.io.FileInputStream;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Properties;
 
-public class Mylibraray {
+public class Mylibraray extends TestBase{
+
 
     public static String getPropertiesData(String name) {
         String xx="";
@@ -60,7 +68,16 @@ public class Mylibraray {
         return driver;
     }
 
+    public static void TakeScreenShots(String saveAs){
+        String DateTime= LocalDate.now().toString()+ LocalTime.now().toString().substring(0,5);
+            saveAs=saveAs+"_"+DateTime.replaceAll("[-,:]","");
+        try {
+            TakesScreenshot ss = (TakesScreenshot) driver;
+            File muhtar = ss.getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(muhtar, new File("src/test/java/Utilities/Reports/Captures/"+saveAs+".jpg"));
+        } catch (Exception e){}
 
+    }
 
 
 }

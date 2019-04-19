@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb43315-ca94-401a-9deb-5221f4bca08b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ExtendReports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/FaceBookTestAndReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/FailedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/FaceBookElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/FaceBookElement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/GoogleElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/GoogleElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/ExtendReports.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/ExtendReports.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FaceBookTestAndReports.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/FaceBookTestAndReports.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/GoogleSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/GoogleSearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" afterDir="false" />
@@ -25,34 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/ExtendReports.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/FaceBookTestAndReports.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="61">
+              <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,22 +40,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/FailedTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/FaceBookElement.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="-308">
+              <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +83,13 @@
         <option value="$PROJECT_DIR$/src/test/java/Utilities/Datas.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/GoogleElement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/ExtendReports.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/FaceBookTestAndReports.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/HowToTakeScreenShot.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/FailedTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" />
       </list>
     </option>
   </component>
@@ -122,7 +100,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="49" />
     <option name="y" value="35" />
     <option name="width" value="2526" />
@@ -140,11 +118,6 @@
             <path>
               <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
               <item name="FrameWork_Version2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FrameWork_Version2" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
@@ -188,6 +161,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FrameWork_Version2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FrameWork_Version2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,10 +179,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555606987458" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555613543471" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MU\IdeaProjects\FrameWork_Version2\src\test\java\Utilities" />
       <recent name="C:\Users\MU\IdeaProjects\FrameWork_Version2\src\test\java" />
     </key>
   </component>
@@ -216,9 +199,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSearch">
-    <configuration name="ExtendReports" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.ExtendReports" />
+  <component name="RunManager" selected="TestNG.FailedTests.method1">
+    <configuration name="FailedTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.FailedTests" />
       <module name="FrameWork_Version2" />
       <extension name="coverage">
         <pattern>
@@ -230,7 +213,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaceBookTestAndReports" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HowToTakeScreenShot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.HowToTakeScreenShot" />
       <module name="FrameWork_Version2" />
       <extension name="coverage">
         <pattern>
@@ -238,15 +222,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.FaceBookTestAndReports" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaceBookTestAndReports.TestFacebook2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FailedTests.method1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FrameWork_Version2" />
       <extension name="coverage">
         <pattern>
@@ -255,8 +235,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.FaceBookTestAndReports" />
-      <option name="METHOD_NAME" value="TestFacebook2" />
+      <option name="MAIN_CLASS_NAME" value="Tests.FailedTests" />
+      <option name="METHOD_NAME" value="method1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -300,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleSearch" />
-        <item itemvalue="TestNG.FaceBookTestAndReports" />
-        <item itemvalue="TestNG.FaceBookTestAndReports.TestFacebook2" />
-        <item itemvalue="Application.ExtendReports" />
+        <item itemvalue="TestNG.FailedTests.method1" />
+        <item itemvalue="Application.FailedTests" />
+        <item itemvalue="Application.HowToTakeScreenShot" />
         <item itemvalue="TestNG.GoogleSearch.SearchTest" />
+        <item itemvalue="TestNG.GoogleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -322,42 +302,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleSearch - 2019.04.17 at 13h 44m 31s.xml">
-      <configuration name="GoogleSearch" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 16m 21s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports - 2019.04.18 at 12h 07m 03s.xml">
-      <configuration name="FaceBookTestAndReports" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 17m 43s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports - 2019.04.18 at 12h 09m 44s.xml">
-      <configuration name="FaceBookTestAndReports" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 19m 49s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports - 2019.04.18 at 12h 11m 40s.xml">
-      <configuration name="FaceBookTestAndReports" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 21m 00s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports - 2019.04.18 at 12h 12m 33s.xml">
-      <configuration name="FaceBookTestAndReports" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 23m 20s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports - 2019.04.18 at 12h 13m 57s.xml">
-      <configuration name="FaceBookTestAndReports" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 44m 36s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports_TestFacebook2 - 2019.04.18 at 12h 21m 29s.xml">
-      <configuration name="FaceBookTestAndReports.TestFacebook2" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 45m 55s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports_TestFacebook2 - 2019.04.18 at 12h 23m 26s.xml">
-      <configuration name="FaceBookTestAndReports.TestFacebook2" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 46m 45s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FaceBookTestAndReports - 2019.04.18 at 12h 25m 50s.xml">
-      <configuration name="FaceBookTestAndReports" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 47m 52s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GoogleSearch - 2019.04.18 at 12h 45m 52s.xml">
-      <configuration name="GoogleSearch" configurationId="TestNG" />
+    <history-entry file="FailedTests_method1 - 2019.04.18 at 14h 49m 14s.xml">
+      <configuration name="FailedTests.method1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1477" height="888" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,8 +344,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17759563" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13114753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,36 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-909">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/ExtendReports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/FaceBookTestAndReports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/FaceBookElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -460,10 +409,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Reports/MyReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Captures/Muhtar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HowToTakeScreenShot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="241">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -472,11 +427,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/GoogleSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="142">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/FaceBookTestAndReports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/ExtendReports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="49" column="46" lean-forward="true" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/FailedTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>

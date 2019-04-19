@@ -15,6 +15,8 @@ public class GoogleSearch extends TestBase {
     google.searchbox.sendKeys(Mylibraray.getPropertiesData("Data1"));
         Mylibraray.sleepForNow(5);
 
+        Mylibraray.TakeScreenShots("Testing1");
+
     }
     @Test
     public void Test2(){

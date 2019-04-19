@@ -6,22 +6,27 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
 
     public static WebDriver driver;
     public static ExtentReports reports=new ExtentReports();
-    public static ExtentHtmlReporter html= new ExtentHtmlReporter("Reports/MyGoogleReport.html");
+    public static ExtentHtmlReporter html= new ExtentHtmlReporter("src/test/java/Utilities/Reports/MyGoogleReport.html");
     public static ExtentTest tests;
 
     public static GoogleElement google;
     public static FaceBookElement FaceBook;
 
+
     @BeforeMethod()   // controls how the @Test method will be executed.
     public void setup01(){
         // this before method is to setup browsers.
         driver = Mylibraray.getDriver();
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(Mylibraray.getPropertiesData("WebSite"));
@@ -34,6 +39,7 @@ public abstract class TestBase {
     google=new GoogleElement();
     FaceBook=new FaceBookElement();
 
+
     }
 
 
@@ -42,6 +48,8 @@ public abstract class TestBase {
         if(result.getStatus() == ITestResult.FAILURE ){
             tests.log(Status.FAIL, result.getName());
             tests.info(result.getThrowable());
+
+            Mylibraray.TakeScreenShots(result.getName());
 
         } else if(result.getStatus() == ITestResult.SKIP ){
             tests.log(Status.SKIP,result.getName());
