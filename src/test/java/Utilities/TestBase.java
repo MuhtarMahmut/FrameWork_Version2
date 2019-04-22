@@ -6,18 +6,14 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
 
     public static WebDriver driver;
     public static ExtentReports reports=new ExtentReports();
-    public static ExtentHtmlReporter html= new ExtentHtmlReporter("src/test/java/Utilities/Reports/MyGoogleReport.html");
+    public static ExtentHtmlReporter html= new ExtentHtmlReporter("src/test/java/Utilities/Reports/MyHTMLReport.html");
     public static ExtentTest tests;
-
     public static GoogleElement google;
     public static FaceBookElement FaceBook;
 
@@ -55,7 +51,7 @@ public abstract class TestBase {
             tests.log(Status.SKIP,result.getName());
             tests.info(result.getThrowable());
         }
-
+    Mylibraray.sleepForNow(1);
         driver.quit();
         driver = null;
     }
