@@ -4,6 +4,8 @@ import Pages.*;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import java.util.concurrent.TimeUnit;
@@ -14,6 +16,9 @@ public abstract class TestBase {
     public static ExtentReports reports=new ExtentReports();
     public static ExtentHtmlReporter html= new ExtentHtmlReporter("src/test/java/Utilities/Reports/MyHTMLReport.html");
     public static ExtentTest tests;
+    public static Actions act;
+    public static WebDriverWait wait;
+
     public static GoogleElement google;
     public static FaceBookElement FaceBook;
 
@@ -22,6 +27,8 @@ public abstract class TestBase {
     public void setup01(){
         // this before method is to setup browsers.
         driver = Mylibraray.getDriver();
+        act=new Actions(driver);
+        wait=new WebDriverWait(driver,50);
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

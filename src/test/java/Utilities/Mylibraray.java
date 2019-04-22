@@ -5,6 +5,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import java.io.File;
@@ -60,6 +61,9 @@ public class Mylibraray extends TestBase{
         } else if(Browser.equals("ie")){
             WebDriverManager.iedriver().setup();
             driver=new InternetExplorerDriver();
+        } else if (Browser.equals("edge")){
+            WebDriverManager.edgedriver().setup();
+            driver=new EdgeDriver();
         }
         return driver;
     }
